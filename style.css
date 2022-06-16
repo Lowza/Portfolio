@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(221, 51%, 12%);
+    font-family: monospace;
+}
+
+h1 {
+    color: hsl(196, 10%, 72%);
+    font-size: 5rem;
+    padding: 0 0 2vw 0;
+}
+
+header {
+    width: 50%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: right;
+}
+
+header li {
+    color: hsl(196, 10%, 90%);
+    text-align: right;
+    list-style: none;
+    font-size: 1.5rem;
+    display: inline;
+    padding: 10px;
+}
+
+#projects li {
+    list-style: none;
+    padding: 10px 0 0 0;
+    color: hsl(196, 10%, 90%);
+    font-size: 1.5rem;
+}
+
+main {
+    width: 50%;
+    margin: 0 auto;
+}
+
+h2 {
+    color:hsl(196, 10%, 72%);
+    font-size: 3rem;
+    padding: 0 0 1vw 0;
+}
+
+span {
+    color: hsl(150, 94%, 52%);
+}
+
+p {
+    color: hsl(196, 10%, 90%);
+    font-size: 2rem;
+    padding: 0 0 2vw 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(196, 10%, 90%);
+}
+
+a:visited {
+    color: hsl(196, 10%, 90%);
+}
+
+a:hover {
+    color: hsl(150, 94%, 52%);
+}
